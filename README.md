@@ -20,3 +20,6 @@
 	
 	Run Through Command Line: goto root of the project and run using this comand ->  mvn spring-boot:run
 	Please make sure set up MAVEN_HOME locally
+
+
+<b> Integrations: </b> Integrated #Swagger also for API documentation, please visit Swagger UI url for API testing : http://localhost:8080/swagger-ui.html
