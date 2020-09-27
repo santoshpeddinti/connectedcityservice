@@ -12,3 +12,11 @@
 	 			 	<br>	&nbsp;	&nbsp; Unit tests added for these 2 endpoints, runs as part of the maven build.<br>
 	 4. **Reports**
 	 				<br>	&nbsp;	&nbsp; Genarated test reports using #ExtentReports, which generates using html. Here is the sample file : <br>	&nbsp;	&nbsp; ConnectedRoutes_Sun_Sep_27_14_41_41_EDT_2020.html, under the root folder of this project repository
+
+<b>Installation:</b>
+	<br>	&nbsp;	&nbsp; Prerequisites : Install #Java 8+ and maven 3+ versions, Also download the project from the repo. With eclipse import the project as existing maven project.
+	<br> &nbsp; &nbsp; <br><b>Run:</b></br> goto CityServiceApplication class and run as java application, which bootstraps the spring app and starts the embedded tomcat webserver.<br>
+	Next, goto pom.xml and right click run as a maven build will do clean install by triggering all tests automatically. Also generates test report as i mentioned above.<br>
+	
+	Run Through Command Line: goto root of the project and run using this comand ->  mvn spring-boot:run
+	Please make sure set up MAVEN_HOME locally
