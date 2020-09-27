@@ -22,4 +22,6 @@
 	Please make sure set up MAVEN_HOME locally
 
 
-<b> Integrations: </b> Integrated #Swagger also for API documentation, please visit Swagger UI url for API testing : http://localhost:8080/swagger-ui.html
+<b> Integrations: </b> Integrated #Swagger also for API documentation, please visit Swagger UI url for API testing : http://localhost:8080/swagger-ui.html <br>
+
+Also integrated with ExtentReports for generating a report after tests ran, here is the sample with in the project: https://github.com/santoshpeddinti/connectedcityservice/blob/master/ConnectedRoutes_Sun_Sep_27_14_41_41_EDT_2020.html
