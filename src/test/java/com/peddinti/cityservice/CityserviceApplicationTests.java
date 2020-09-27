@@ -55,7 +55,7 @@ public class CityserviceApplicationTests {
 	void addCities() {
 		Response response = RestAssured.given().contentType(ContentType.TEXT).queryParam("origin", "California")
 				.queryParam("destination", "Maryland")
-				.get(BASE_URL + ADD_CITIES).then().assertThat()
+				.post(BASE_URL + ADD_CITIES).then().assertThat()
 				.statusCode(200).and().contentType(ContentType.TEXT).extract().response();
 		String res = response.getBody().asString();
 		ExtentTest parent = extent.createTest("getConnectedRoute").assignCategory("Connected Routes");
